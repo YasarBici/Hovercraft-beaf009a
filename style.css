@@ -1,0 +1,88 @@
+label {
+	color: black;
+	display: block;
+}
+input {
+	width: 300px;
+	display: block; 
+	border-radius: 5px;
+
+}
+
+fieldset  {
+	display: inline-block;
+}
+
+textarea {
+	border:5px solid red;
+}
+.red-textarea:focus {
+	background: yellow;
+	color: red;
+	border: 5px solid green;
+	/*border-color: green;*/
+}
+
+th, td {
+	border-style: solid;
+	border-width: 1px;
+	color: black;
+	width: 5em;
+	padding: 10px;
+}
+
+.periodic_title {
+  background-color: black;
+  color: pink;
+  margin: 20px;
+  padding: 20px;
+}
+
+.periodic_header {
+	background-color: lightgray;
+	color: black;
+}
+
+.periodics_orange {
+	background-color: orange;
+	color: green;
+}
+
+.periodics_pink {
+	background-color: rgb(208, 102, 250);
+	color: black;
+}
+
+.periodics_blue {
+	background-color: rgb(102, 161, 250);
+	color: black;
+}
+
+.periodics_yellow {
+	background-color: rgb(255, 239, 147);
+	color: black;
+}
+
+@media (hover: hover) {
+
+	.periodics_orange:hover {
+		background-color: lime;
+		cursor: pointer;
+	}
+
+	.periodics_pink:hover {
+		background-color: lime;
+		cursor: pointer;
+	}
+
+	.periodics_blue:hover {
+		background-color: lime;
+		cursor: pointer;
+	}
+
+	.periodics_yellow:hover {
+		background-color: lime;
+		cursor: pointer;
+	}
+
+}
